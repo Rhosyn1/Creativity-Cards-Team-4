@@ -11,12 +11,15 @@ We chose the MIT License because our work is then able to be used by others whic
 ### Design:
 
 Tristan Coleman
+
 Jesus Vaquero Zurita
 
 ### Art:
 
 Chloe Alcock
+
 Tom Jessop
+
 Juno Speranskaya
 
 ### Animation:
@@ -30,4 +33,5 @@ Samuel Green
 ### Programming:
 
 Callum Quinn
+
 Ceri Thomas
