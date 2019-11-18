@@ -2,18 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class PlayGame : MonoBehaviour
+public class ButtonsPressed : MonoBehaviour
 {
+    //Loading main level if play button is pressed
     public void PlayButtonPressed()
     {
         Debug.Log("Play");
         SceneManager.LoadScene(1);
     }
 
+    //quitting game if quit button is pressed
     public void QuitButtonPressed()
     {
-        Debug.Log("Quit");
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
     
 }
