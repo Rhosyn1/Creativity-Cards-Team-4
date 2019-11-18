@@ -8,7 +8,8 @@ public class JournalScript : MonoBehaviour
     public CrabInteraction()
     {
         //if crab is clicked on and successfully interrogated then crab page overlays blank page
-        //Crab overlay over half of BGV3
+        //Crab overlay covers half of BGV3
+        Debug.Log("Crab");
 
 
     }
@@ -16,36 +17,36 @@ public class JournalScript : MonoBehaviour
     //Fish
     public FishInteraction()
     {
-
+        Debug.Log("Fish");
     }
     //Jellyfish
     public JellyfishInteraction()
     {
-
+        Debug.Log("Jellyfish");
     }
     //MorayEel
     public MorayInteraction()
     {
-
+        Debug.Log("Moray");
     }
     //Seahorse
     public SeahorseInteraction()
     {
-
+        Debug.Log("Seahorse");
     }
     //Seaweed
     public SeaweedInteraction()
     {
-
+        Debug.Log("Seaweed");
     }
     //Shark
     public SharkInteraction()
     {
-
+        Debug.Log("Shark");
     }
     //Squid
     public SquidInteraction()
     {
-
+        Debug.Log("Squid");
     }
 }
