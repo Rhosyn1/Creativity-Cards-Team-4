@@ -12,6 +12,7 @@ TagManager:
   - Seaweed
   - Shark
   - Squid
+  - Terrain
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - Player
   - 
   - 
   - 
