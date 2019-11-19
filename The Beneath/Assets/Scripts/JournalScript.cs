@@ -1,52 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class JournalScript : MonoBehaviour
 {
     //Crab
-    public void CrabInteraction()
+    public Image crabImage;
+    //public Image fishImage;
+    //public Image jellyfishImage;
+    //public Image morayImage;
+    //public Image seahorseImage;
+    //public Image seaweedImage;
+    //public Image sharkImage;
+    //public Image squidImage;
+    public void onTriggerEnter(Collider other)
     {
         //if crab is clicked on and successfully interrogated then crab page overlays blank page
         //Crab overlay covers half of BGV3
-        Debug.Log("Crab");
+        if (other.CompareTag("Crab"))
+        {
+            //over the cover
+            crabImage.enabled = true;
+        }
 
-
-    }
-
-    //Fish
-    public void FishInteraction()
-    {
-        Debug.Log("Fish");
-    }
-    //Jellyfish
-    public void JellyfishInteraction()
-    {
-        Debug.Log("Jellyfish");
-    }
-    //MorayEel
-    public void MorayInteraction()
-    {
-        Debug.Log("Moray");
-    }
-    //Seahorse
-    public void SeahorseInteraction()
-    {
-        Debug.Log("Seahorse");
-    }
-    //Seaweed
-    public void SeaweedInteraction()
-    {
-        Debug.Log("Seaweed");
-    }
-    //Shark
-    public void SharkInteraction()
-    {
-        Debug.Log("Shark");
-    }
-    //Squid
-    public void SquidInteraction()
-    {
-        Debug.Log("Squid");
     }
 }
