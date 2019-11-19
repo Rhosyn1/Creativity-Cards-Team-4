@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Crab
+  - Fish
+  - Jellyfish
+  - Moray
+  - Seahorse
+  - Seaweed
+  - Shark
+  - Squid
   layers:
   - Default
   - TransparentFX
