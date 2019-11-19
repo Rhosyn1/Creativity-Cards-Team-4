@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class JournalScript : MonoBehaviour
 {
-    //Crab
+    /*Crab
     public CrabInteraction()
     {
         //if crab is clicked on and successfully interrogated then crab page overlays blank page
@@ -48,5 +48,8 @@ public class JournalScript : MonoBehaviour
     public SquidInteraction()
     {
         Debug.Log("Squid");
+      
     }
+    */
 }
+
