@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class JournalScript : MonoBehaviour
+public class JournalOverlays: MonoBehaviour
 {
-    //Crab
+    //creating images
     public Image crabImage;
     public Image fishImage;
     public Image jellyfishImage;
@@ -13,51 +13,52 @@ public class JournalScript : MonoBehaviour
     public Image seaweedImage;
     public Image sharkImage;
     public Image squidImage;
+
+    //checking for trigger
     public void onTriggerEnter(Collider other)
     {
-        //if crab is clicked on and successfully interrogated then crab page overlays blank page
-        //Crab overlay covers half of BGV3
+        //checking tags
         if (other.CompareTag("Crab"))
         {
             //over the cover
             crabImage.enabled = true;
         }
 
-        if (other.CompareTag("Fish"))
+        else if (other.CompareTag("Fish"))
         {
             fishImage.enabled = true;
         }
 
-        if (other.CompareTag("Jellyfish"))
+        else if (other.CompareTag("Jellyfish"))
         {
             jellyfishImage.enabled = true;
         }
 
-        if (other.CompareTag("Moray"))
+        else if (other.CompareTag("Moray"))
         {
             morayImage.enabled = true;
         }
 
-        if (other.CompareTag("Seahorse"))
+        else if (other.CompareTag("Seahorse"))
         {
             seahorseImage.enabled = true;
         }
 
-        if (other.CompareTag("Shark"))
+        else if (other.CompareTag("Shark"))
         {
             sharkImage.enabled = true;
         }
 
-        if (other.CompareTag("Squid"))
+        else if (other.CompareTag("Squid"))
         {
             fishImage.enabled = true;
         }
 
-
-
-
+        else
+        {
+            Debug.Log("No Trigger");
+        }
 
     }
-
 
 }
