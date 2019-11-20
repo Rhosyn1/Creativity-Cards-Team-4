@@ -25843,6 +25843,14 @@ MonoBehaviour:
   seaweedImage: {fileID: 982370407}
   sharkImage: {fileID: 605089111}
   squidImage: {fileID: 1153936901}
+  crabFound: 1
+  fishFound: 1
+  jellyfishFound: 1
+  morayFound: 1
+  seahorseFound: 1
+  seaweedFound: 1
+  sharkFound: 1
+  squidFound: 1
 --- !u!43 &1400199745
 Mesh:
   m_ObjectHideFlags: 0
@@ -37052,7 +37060,7 @@ PrefabInstance:
     - target: {fileID: 6350248601007299101, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 682
       objectReference: {fileID: 0}
     - target: {fileID: 6350248601007299101, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
@@ -37107,7 +37115,7 @@ PrefabInstance:
     - target: {fileID: 8666762670238176649, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 21.275146
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 8666762670238176649, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
@@ -37127,7 +37135,7 @@ PrefabInstance:
     - target: {fileID: 8666762670238176649, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
       propertyPath: m_Pivot.x
-      value: 1.0681174
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8666762670238176649, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
@@ -37137,7 +37145,7 @@ PrefabInstance:
     - target: {fileID: 8666762670238176649, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8666762670238176649, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
@@ -37147,12 +37155,12 @@ PrefabInstance:
     - target: {fileID: 8666762670238176649, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6439007383061180518, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
       propertyPath: m_Text
-      value: <
+      value: '>'
       objectReference: {fileID: 0}
     - target: {fileID: 6439007383061180518, guid: 81b619b344988554c9e01e02410e65fc,
         type: 3}
@@ -37178,6 +37186,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2799799205963838280, guid: 81b619b344988554c9e01e02410e65fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2799799205963838280, guid: 81b619b344988554c9e01e02410e65fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2799799205963838280, guid: 81b619b344988554c9e01e02410e65fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2799799205963838280, guid: 81b619b344988554c9e01e02410e65fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1377844621}
+    - target: {fileID: 2799799205963838280, guid: 81b619b344988554c9e01e02410e65fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: turnPages
+      objectReference: {fileID: 0}
+    - target: {fileID: 2799799205963838280, guid: 81b619b344988554c9e01e02410e65fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81b619b344988554c9e01e02410e65fc, type: 3}

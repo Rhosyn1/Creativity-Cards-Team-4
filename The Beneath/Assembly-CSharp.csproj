@@ -66,8 +66,7 @@
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Compile Include="Assets\Scripts\ButtonsPressed.cs" />
     <Compile Include="Assets\Scripts\Exploding.cs" />
-    <Compile Include="Assets\Scripts\JournalChangingPages.cs" />
-    <Compile Include="Assets\Scripts\JournalOverlays.cs" />
+    <Compile Include="Assets\Scripts\JournalScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TakingDamage.cs" />
     <Reference Include="Unity.ProGrids">
