@@ -65,6 +65,7 @@
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Compile Include="Assets\Scripts\ButtonsPressed.cs" />
+    <Compile Include="Assets\Scripts\ChangingRooms.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Exploding.cs" />
     <Compile Include="Assets\Scripts\Journal.cs" />
