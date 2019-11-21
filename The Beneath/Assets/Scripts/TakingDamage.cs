@@ -7,9 +7,8 @@ public class TakingDamage : MonoBehaviour
 {
     public int health = 10;
     public int DamageToPlayer = 1;
-    public bool invincible = false;
+    public bool invincible;
     public GameObject Player;
-
 
     // Update is called once per frame
     void OnCollisionEnter(Collision collision)
@@ -17,7 +16,7 @@ public class TakingDamage : MonoBehaviour
         if (collision.transform.tag == "Terrain")
         {
             health -= 1;
-            StartCoroutine("InvincibilityTime");
+            Invincible();
             //sorry had to edit for game over scene :)
             if (health == 0)
             {
@@ -25,6 +24,13 @@ public class TakingDamage : MonoBehaviour
             }
         }
     }
+
+    public void Invincible() 
+    {
+        StopAllCoroutines();
+        StartCoroutine("InvincibilityTime");
+    }
+
     IEnumerator InvincibilityTime()
     {
         invincible = true;

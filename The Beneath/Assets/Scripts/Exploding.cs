@@ -10,12 +10,14 @@ public class Exploding : MonoBehaviour
         if (collision.transform.tag == "Player")
         {
             StartCoroutine(Countdown());
-
         }
     }
     IEnumerator Countdown()
     {
-        yield return new WaitForSeconds(3);
+        
+        yield return new WaitForSeconds(2);
+        GetComponentInChildren<ParticleSystem>().Play();
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
     }
 }

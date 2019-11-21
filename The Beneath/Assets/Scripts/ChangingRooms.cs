@@ -12,7 +12,7 @@ public class ChangingRooms : MonoBehaviour
     private MeshRenderer render;
 
     public Color myColour = new Color(75f, 28f, 82f, 255f);
-    void OnCollisionEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
         if(render.material.color == myColour)
         {

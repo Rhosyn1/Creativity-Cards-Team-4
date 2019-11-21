@@ -7,6 +7,8 @@ public class EnemyController : MonoBehaviour
 {
 
     public float LookRadius = 10f;
+    public float AttackRadius = 2.5f;
+    private GameObject Player; 
 
     Transform Target;
     NavMeshAgent Agent;
@@ -16,6 +18,7 @@ public class EnemyController : MonoBehaviour
     {
         Target = PlayerManager.instance.Player.transform;
         Agent = GetComponent<NavMeshAgent>();
+        Player = GameObject.FindGameObjectWithTag("Player");
 
     }
 
@@ -28,6 +31,13 @@ public class EnemyController : MonoBehaviour
         {
             Agent.SetDestination(Target.position);
 
+            if(distance <= AttackRadius && !Player.GetComponent<TakingDamage>().invincible)
+            {
+                Player.GetComponent<TakingDamage>().health -= 1;
+                Player.GetComponent<TakingDamage>().StartCoroutine("InvincibilityTime");
+                Debug.Log("oww");
+                Debug.Log(Player.GetComponent<TakingDamage>().health);
+            }
 
             if (distance <= Agent.stoppingDistance)
             {
