@@ -39,6 +39,10 @@ public class Journal : MonoBehaviour
     public GameObject button1;
     public GameObject button2;
     public GameObject button3;
+
+    public GameObject button4;
+    public GameObject button5;
+    public GameObject button6;
     public void comparingTags()
     {
         if (crabObject.CompareTag("Crab"))
@@ -127,6 +131,7 @@ public class Journal : MonoBehaviour
 
         button1.SetActive(false);
         button2.SetActive(true);
+        button4.SetActive(true);
       
     }
 
@@ -155,7 +160,7 @@ public class Journal : MonoBehaviour
 
         button2.SetActive(false);
         button3.SetActive(true);
-
+        button5.SetActive(true);
     }
 
     public void turnPageRight3()
@@ -182,6 +187,94 @@ public class Journal : MonoBehaviour
         }
 
         button3.SetActive(false);
+        button5.SetActive(false);
+        button6.SetActive(true);
+
+    }
+
+    public void turnPagesLeft()
+    {
+        jellyfishImage.SetActive(false);
+        morayImage.SetActive(false);
+
+        if (crabFound == true && fishFound == true)
+        {
+            crabImage.SetActive(true);
+            fishImage.SetActive(true);
+        }
+        else if (crabFound == true && fishFound != true)
+        {
+            crabImage.SetActive(true);
+        }
+        else if (crabFound != true && fishFound == true)
+        {
+            fishImage.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("None found");
+        }
+
+        button1.SetActive(true);
+        button2.SetActive(false);
+        button4.SetActive(false);
+    }
+
+    public void turnPagesLeft1()
+    {
+        seahorseImage.SetActive(false);
+        seaweedImage.SetActive(false);
+
+        if (jellyfishFound == true && morayFound == true)
+        {
+            jellyfishImage.SetActive(true);
+            morayImage.SetActive(true);
+        }
+        else if (jellyfishFound == true && morayFound != true)
+        {
+            jellyfishImage.SetActive(true);
+        }
+        else if (jellyfishFound != true && morayFound == true)
+        {
+            morayImage.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("No");
+        }
+
+        button2.SetActive(true);
+        button3.SetActive(false);
+        button5.SetActive(false);
+
+    }
+
+    public void turnPagesLeft2()
+    {
+        sharkImage.SetActive(false);
+        squidImage.SetActive(false);
+
+        if (seahorseFound == true && seaweedFound == true)
+        {
+            seahorseImage.SetActive(true);
+            seaweedImage.SetActive(true);
+        }
+        else if (seahorseFound == true && seaweedFound != true)
+        {
+            seahorseImage.SetActive(true);
+        }
+        else if (seahorseFound != true && seaweedFound == true)
+        {
+            seaweedImage.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("No");
+        }
+
+        button3.SetActive(true);
+        button5.SetActive(true);
+        button6.SetActive(false);
 
     }
 
