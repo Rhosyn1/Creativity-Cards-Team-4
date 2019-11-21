@@ -36,7 +36,9 @@ public class Journal : MonoBehaviour
     public GameObject squidObject;
     public bool squidFound;
 
-
+    public GameObject button1;
+    public GameObject button2;
+    public GameObject button3;
     public void comparingTags()
     {
         if (crabObject.CompareTag("Crab"))
@@ -100,11 +102,11 @@ public class Journal : MonoBehaviour
 
     }
 
-    public void turnPageRight()
+    public void turnPageRight1()
     {
         crabImage.SetActive(false);
         fishImage.SetActive(false);
-
+        
         if (jellyfishFound == true && morayFound == true)
         {
             jellyfishImage.SetActive(true);
@@ -123,17 +125,70 @@ public class Journal : MonoBehaviour
             Debug.Log("No");
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            jellyfishImage.SetActive(false);
-            morayImage.SetActive(false);
-
-        }
+        button1.SetActive(false);
+        button2.SetActive(true);
       
     }
 
-    
+    public void turnPageRight2()
+    {
+        jellyfishImage.SetActive(false);
+        morayImage.SetActive(false);
 
-    
+        if (seahorseFound == true && seaweedFound == true)
+        {
+            seahorseImage.SetActive(true);
+            seaweedImage.SetActive(true);
+        }
+        else if (seahorseFound == true && seaweedFound != true)
+        {
+            seahorseImage.SetActive(true);
+        }
+        else if (seahorseFound != true && seaweedFound == true)
+        {
+            seaweedImage.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("No");
+        }
+
+        button2.SetActive(false);
+        button3.SetActive(true);
+
+    }
+
+    public void turnPageRight3()
+    {
+        seahorseImage.SetActive(false);
+        seaweedImage.SetActive(false);
+
+        if (sharkFound == true && squidFound == true)
+        {
+            sharkImage.SetActive(true);
+            squidImage.SetActive(true);
+        }
+        else if (sharkFound == true && squidFound != true)
+        {
+            sharkImage.SetActive(true);
+        }
+        else if (sharkFound != true && squidFound == true)
+        {
+            squidImage.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("No");
+        }
+
+        button3.SetActive(false);
+
+    }
+
+   
+
+
+
+
 
 }

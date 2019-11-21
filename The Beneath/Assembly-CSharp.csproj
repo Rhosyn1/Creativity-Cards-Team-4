@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Exploding.cs" />
     <Compile Include="Assets\Scripts\Journal.cs" />
-    <Compile Include="Assets\Scripts\JournalScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\TakingDamage.cs" />
