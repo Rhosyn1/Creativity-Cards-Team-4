@@ -13,7 +13,7 @@ public class ButtonsPressed : MonoBehaviour
     public void PlayButtonPressed()
     {
         Debug.Log("Play");
-        SceneManager.LoadScene(1); //loading second scene in build
+        SceneManager.LoadScene("Main Level"); //loading second scene in build
     }
 
     //quitting game if quit button is pressed
