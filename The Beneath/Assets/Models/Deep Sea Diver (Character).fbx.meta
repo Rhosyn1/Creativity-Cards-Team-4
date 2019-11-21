@@ -87,6 +87,8 @@ ModelImporter:
     2300000: transform20
     3300000: transform20
     4300000: transform20
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -97,7 +99,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -107,7 +109,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -139,8 +141,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -154,7 +156,207 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human: []
-    skeleton: []
+    skeleton:
+    - name: Deep Sea Diver (Character)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPlatonic1
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0, y: 0.015470348, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.57991344, y: 0.57991344, z: 0.57991344}
+    - name: transform2
+      parentName: pPlatonic1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder1
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0.0035612278, y: 0.019082772, z: 0}
+      rotation: {x: 0, y: 0, z: 0.38268346, w: 0.92387956}
+      scale: {x: 0.251172, y: 0.06880192, z: 0.251172}
+    - name: transform1
+      parentName: pCylinder1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder2
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: 0.0037144294, y: 0.019082772, z: 0}
+      rotation: {x: 0, y: -0, z: -0.38268346, w: 0.92387956}
+      scale: {x: 0.251172, y: 0.06880192, z: 0.251172}
+    - name: transform4
+      parentName: pCylinder2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder3
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: 0.00011668338, y: 0.015423019, z: 0.004776156}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 0.37260023, y: 0.10206396, z: 0.37260023}
+    - name: transform3
+      parentName: pCylinder3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder4
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0.000011341571, y: 0.02232859, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.61883, y: 0.61883, z: 0.61883}
+    - name: transform17
+      parentName: pCylinder4
+      position: {x: 0.000011341571, y: -0.015508271, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube1
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0, y: 0.014377692, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.66908276, y: 0.8728166, z: 0.39773077}
+    - name: transform18
+      parentName: pCube1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder5
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0, y: 0.018997233, z: 0.000049907238}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16756842, y: 0.03907643, z: 0.16756842}
+    - name: transform19
+      parentName: pCylinder5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder6
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0.008618881, y: 0.017161228, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.12270758, y: 0.025312861, z: 0.12878218}
+    - name: polySurface1
+      parentName: pCylinder6
+      position: {x: -3.5205637e-17, y: 0.18677352, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform15
+      parentName: polySurface1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: pCylinder6
+      position: {x: -1.6570647e-16, y: 0.42614058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform16
+      parentName: polySurface2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform5
+      parentName: pCylinder6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle1
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0.0008377176, y: 0.02626792, z: -0.001832514}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.033366032, y: 1, z: 0.033366032}
+    - name: pCylinder7
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0.0015549912, y: 0.009311574, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.12556052, y: 0.032481354, z: 0.12556052}
+    - name: transform11
+      parentName: pCylinder7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube2
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0.004903809, y: 0.010143629, z: 0.0016498124}
+      rotation: {x: -0.21643962, y: 0, z: -0, w: 0.976296}
+      scale: {x: 0.06993482, y: 0.19647495, z: 0.15383808}
+    - name: transform9
+      parentName: pCube2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube3
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: 0.00488144, y: 0.010143629, z: 0.0016498124}
+      rotation: {x: -0.21643962, y: 0, z: -0, w: 0.976296}
+      scale: {x: 0.06993482, y: 0.19647495, z: 0.15383808}
+    - name: transform10
+      parentName: pCube3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder8
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: 0.0016972037, y: 0.009311574, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.12556052, y: 0.032481354, z: 0.12556052}
+    - name: transform13
+      parentName: pCylinder8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube4
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0.0015738442, y: 0.001243224, z: -0.00048635123}
+      rotation: {x: 0.087155744, y: -0, z: -0, w: 0.9961947}
+      scale: {x: 0.2629536, y: 0.07820552, z: 0.21184304}
+    - name: transform12
+      parentName: pCube4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube5
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: 0.0016515144, y: 0.001243224, z: -0.00048635123}
+      rotation: {x: 0.087155744, y: -0, z: -0, w: 0.9961947}
+      scale: {x: 0.2629536, y: 0.07820552, z: 0.21184304}
+    - name: transform14
+      parentName: pCube5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder9
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: 0.000019419076, y: 0.012789352, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: extrudedSurface4_f_0:transform1
+      parentName: pCylinder9
+      position: {x: -0.000019419076, y: -0.012789352, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve2
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: extrudedSurface4
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: -0, y: -0.0023064467, z: -0.002324127}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: extrudedSurface4_f_0:transform2
+      parentName: extrudedSurface4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform20
+      parentName: Deep Sea Diver (Character)(Clone)
+      position: {x: 0.000019419193, y: 0.40478954, z: -0.0006042217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 15.940229, y: 15.940229, z: 15.940229}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -164,10 +366,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
