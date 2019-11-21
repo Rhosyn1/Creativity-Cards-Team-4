@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
@@ -65,12 +66,12 @@
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
-     <Compile Include="Assets\Patrol.cs" />
      <Compile Include="Assets\Scripts\ButtonsPressed.cs" />
      <Compile Include="Assets\Scripts\ChangingRooms.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\Exploding.cs" />
      <Compile Include="Assets\Scripts\Journal.cs" />
+     <Compile Include="Assets\Scripts\Patrol.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\TakingDamage.cs" />
